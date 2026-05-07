@@ -1,8 +1,5 @@
-# FALCON-Discover: Anonymous Review Artifact
+# FALCON-Discover: Artifact
 
-<p align="center">
-  <img src="assets/branding/falcon_mark.png" alt="FALCON mark" width="120">
-</p>
 
 <p align="center">
   <img src="assets/figures/teaser_falcon_framework.png" alt="FALCON teaser" width="920">
