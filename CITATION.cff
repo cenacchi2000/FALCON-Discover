@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "FALCON-Discover: Anonymous Review Artifact"
+message: "Anonymous review artifact for double-blind evaluation. Citation metadata will be updated after review."
+authors:
+  - family-names: "Anonymous"
+    given-names: "Author(s)"
+year: 2026
+version: "0.1.0-anonymous"

@@ -1,0 +1,7 @@
+# Table 2 — Operational impact and threshold robustness
+
+| dataset        |   fc_count |   prior_at20_count |   family_at20_count |   delta_cap20_tau_085 |   delta_cap20_tau_090 |   delta_cap20_tau_095 |
+|:---------------|-----------:|-------------------:|--------------------:|----------------------:|----------------------:|----------------------:|
+| Adult          |      117   |              11.25 |               84    |                 0.61  |                 0.621 |                 0.484 |
+| Bank Marketing |       99   |              21    |               73.25 |                 0.497 |                 0.528 |                 0.464 |
+| MiniBooNE      |      268.5 |              84.25 |              179.5  |                 0.333 |                 0.355 |                 0.353 |

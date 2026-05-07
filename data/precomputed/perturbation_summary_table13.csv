@@ -1,0 +1,8 @@
+dataset,best_lambda,delta_cap20_lambda,best_k,delta_cap20_k
+Adult,lambda=0.10,0.642,k=20,0.602
+Bank,lambda=0.30,0.579,k=20,0.534
+MiniBooNE,lambda=0.30,0.417,k=20,0.347
+Magic,lambda=0.30,0.292,k=5,0.24
+Nomao,lambda=0.30,-0.033,k=5,-0.07
+Spambase,lambda=0.30,0.058,k=10,-0.05
+Phoneme,lambda=0.30,-0.261,k=10,-0.261

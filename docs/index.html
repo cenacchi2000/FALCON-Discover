@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FALCON-Discover Anonymous Review Artifact</title>
+<style>
+body{font-family:Inter,Arial,sans-serif;margin:0;background:#f6f8fb;color:#172033;line-height:1.55}
+.wrap{max-width:1120px;margin:0 auto;padding:32px}
+.hero{background:white;border:1px solid #e6ebf2;border-radius:24px;padding:28px;box-shadow:0 18px 42px rgba(20,30,60,.08)}
+.tag{display:inline-block;background:#eaf2ff;color:#163b79;padding:6px 12px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:.02em}
+h1{font-size:36px;margin:12px 0 8px}
+p{margin:8px 0}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:20px}
+.card{background:white;border:1px solid #e6ebf2;border-radius:18px;padding:18px;box-shadow:0 10px 24px rgba(20,30,60,.05)}
+.metric{font-size:32px;font-weight:900;color:#0f3d71}
+.small{font-size:13px;color:#667085}
+.img{width:100%;border-radius:18px;border:1px solid #e6ebf2;margin-top:18px}
+pre{background:#eef2f7;padding:14px;border-radius:12px;overflow:auto}
+.section{margin-top:24px}
+@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.grid{grid-template-columns:1fr} h1{font-size:28px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <span class="tag">Anonymous review artifact</span>
+    <h1>FALCON-Discover</h1>
+    <p>A compact, upload-ready GitHub artifact for double-blind review. This version exposes the reusable discrepancy-state interface, precomputed results, recreation scripts, and polished reviewer-facing figures, while withholding the full private orchestration stack.</p>
+    <img class="img" src="../assets/figures/teaser_falcon_framework.png" alt="FALCON teaser">
+    <div class="grid">
+      <div class="card"><div class="metric">0.859</div><b>Best AUROC</b><p class="small">Bank Marketing family FalseConf-AUROC.</p></div>
+      <div class="card"><div class="metric">+0.621</div><b>Largest ΔCap@20</b><p class="small">Adult improvement over strongest prior baseline.</p></div>
+      <div class="card"><div class="metric">7</div><b>Datasets</b><p class="small">Anonymous binary tabular benchmarks.</p></div>
+      <div class="card"><div class="metric">4×5</div><b>Seeds × CV</b><p class="small">Four seeds, five-fold cross-fitting.</p></div>
+    </div>
+  </div>
+
+  <div class="section card">
+    <h2>Run the artifact</h2>
+    <pre><code>pip install -e . -r requirements.txt
+python scripts/quick_demo.py
+python scripts/make_main_results.py
+python scripts/make_operational_impact.py
+python scripts/make_family_ablation.py
+python scripts/make_extended_validation.py
+python scripts/make_consequences_baselines.py
+python scripts/make_uncertainty_table.py
+python scripts/make_null_concentration.py
+python scripts/make_figures.py</code></pre>
+  </div>
+
+  <div class="section card">
+    <h2>Included visuals</h2>
+    <p>The repository includes reviewer-facing figures for the main result, operational impact, weighted calibration, null comparison, and extended validation summaries.</p>
+    <img class="img" src="../assets/figures/main_result_comparison.png" alt="Main result">
+    <img class="img" src="../assets/figures/weighted_calibration.png" alt="Weighted calibration">
+  </div>
+</div>
+</body>
+</html>

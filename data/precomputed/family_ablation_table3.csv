@@ -1,0 +1,8 @@
+dataset,learned_cap20,disc_cap20,stab_cap20
+Adult,0.718,0.188,0.116
+Bank Marketing,0.74,0.289,0.203
+MiniBooNE,0.669,0.331,0.245
+Magic Telescope,0.345,0.138,0.047
+Nomao,0.561,0.354,0.728
+Spambase,0.279,0.287,0.437
+Phoneme,0.25,0.167,0.167

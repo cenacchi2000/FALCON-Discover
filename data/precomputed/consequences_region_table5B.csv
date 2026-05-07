@@ -1,0 +1,5 @@
+analysis,Adult,Bank,MiniBooNE,Mean
+Top-1 FC mass,0.736,0.667,0.41,0.604
+Top-2 FC mass,0.902,0.842,0.768,0.837
+Top-region support,0.95,0.943,0.926,0.939
+Top-region instability,0.008,0.007,0.022,0.012

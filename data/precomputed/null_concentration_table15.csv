@@ -1,0 +1,8 @@
+dataset,observed_cap20,null_mean,null_ci_lo,null_ci_hi,empirical_p
+Adult,0.728,0.2,0.132,0.274,<1e-4
+Bank Marketing,0.74,0.2,0.121,0.285,<1e-4
+MiniBooNE,0.669,0.2,0.153,0.249,<1e-4
+Magic Telescope,0.221,0.2,0.105,0.316,0.317
+Nomao,0.728,0.2,0.139,0.267,<1e-4
+Spambase,0.437,0.2,0.118,0.288,1.8e-3
+Phoneme,0.333,0.2,0.091,0.333,0.052

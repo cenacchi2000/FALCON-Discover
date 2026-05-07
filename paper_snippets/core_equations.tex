@@ -1,0 +1,19 @@
+\[
+\mathrm{FC}_{\tau}(x)=\mathbb{I}\!\left[\hat{y}(x)\neq y \;\land\; \mathrm{conf}(x)\ge\tau\right]
+\]
+
+\[
+\mathrm{Capture}@\alpha(s)=\frac{\sum_{x\in \mathrm{Top}_{\alpha}(s)} \mathrm{FC}_{\tau}(x)}{\sum_x \mathrm{FC}_{\tau}(x)}
+\]
+
+\[
+s_{\mathrm{stab}}(x)=0.7\,\Delta_{\mathrm{mean}}(x)+0.3\,(1-\mathrm{LC}(x))
+\]
+
+\[
+s_{\mathrm{disc}}(x)=1.30\,\mathrm{conf}(x)+1.00\,\Delta_{\mathrm{mean}}(x)+0.80\,\Delta_{\mathrm{max}}(x)+1.00(1-\mathrm{LC}(x))+0.80(1-\mathrm{supp}(x))+0.70(1-\mathrm{agr}_{\mathrm{label}}(x))
+\]
+
+\[
+w_{\mathrm{cal}}(x)=1.2\,\mathrm{conf}(x)+1.0(1-\mathrm{supp}(x))+0.9(1-\mathrm{agr}_{\mathrm{label}}(x))+1.2\,\Delta_{\mathrm{mean}}(x)+1.0(1-\mathrm{LC}(x))+2.0\,\mathrm{FC}_{\tau}(x)
+\]
