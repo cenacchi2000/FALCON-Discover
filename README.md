@@ -1,10 +1,6 @@
 # FALCON-Discover: Artifact
 
 
-<p align="center">
-  <img src="assets/figures/teaser_falcon_framework.png" alt="FALCON teaser" width="920">
-</p>
-
 This repository is an **anonymous review artifact** for the paper:
 
 > **FALCON-Discover: Discovering Concentrated False-Confidence Regions for Calibration**
